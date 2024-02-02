@@ -1,0 +1,140 @@
+@import "../global/style.scss";
+
+.header {
+    padding: 20px 0;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__txt {
+    color: var(--gray);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    max-width: 198px;
+    width: 100%;
+    margin-left: 30px;
+
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+}
+
+.header__logo {
+    max-width: 215px;
+    width: 100%;
+
+    @media screen and (max-width:768px) {
+        max-width: 180px;
+        width: 100%;
+    }
+}
+
+.logo {
+    width: 100%;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__stars {
+    position: relative;
+}
+
+.header__count {
+    background-image: var(--info);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    right: -51%;
+    padding: 2px 5px;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.header__shop {
+    margin-left: 25px;
+    background: #EFF2F4;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @media screen and (max-width:550px) {
+        background: transparent;
+    }
+}
+
+.header__count2 {
+    position: absolute;
+    background-image: var(--info);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -6%;
+    right: 0%;
+    padding: 2px 5px;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    display: none;
+
+    @media screen and (max-width:550px) {
+        display: flex;
+    }
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+
+    @media screen and (max-width:550px) {
+        display: none;
+    }
+}
+
+.header__price {
+    color: var(--gray);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header__span {
+    color: var(--primary);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.header__prices {
+    color: var(--primary);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 130%;
+}

@@ -1,0 +1,56 @@
+.meet {
+    margin-top: 81px;
+}
+
+.meet__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meet__top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.meet__hit {
+    background: #EFF2F4;
+    color: #111;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    padding: 13px 28px;
+}
+
+.meet__sale {
+    color: #111;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    border: 1px solid #EFF2F4;
+    padding: 13px 28px;
+}
+
+.meet__bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.meet__cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.meet__left {
+    position: absolute;
+    left: 5%;
+}
+
+.meet__right {
+    position: absolute;
+    right: 5%;
+}

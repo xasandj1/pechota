@@ -1,0 +1,57 @@
+.cards {
+    margin-top: 63px;
+}
+
+.cards__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards__blog {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards__info {
+    position: relative;
+
+}
+
+.cards__txts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    padding-left: 29px;
+}
+
+.cards__txt {
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 700;
+    width: 155px;
+}
+
+.cards__price {
+    color: var(--White, #FFF);
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 10px;
+}
+
+.cards__span {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.cards__show{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
